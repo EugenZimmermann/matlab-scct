@@ -27,14 +27,14 @@ set(0,'RecursionLimit',1000)
 % current folder with all subfolders
 addpath(genpath('.'))
 
-% folders with shared components
-% addpath('..\Common')
-% addpath(genpath('..\CommonGUI'))
-% addpath(genpath('..\CommonObject\'))
-% addpath(genpath('..\CommonImpExp\'))
-% 
-% % device folders
-% addpath(genpath('..\CommonDevice\Keithley'))
+folders with shared components
+addpath('..\Common')
+addpath(genpath('..\CommonGUI'))
+addpath(genpath('..\CommonObject\'))
+addpath(genpath('..\CommonImpExp\'))
+
+% device folders
+addpath(genpath('..\CommonDevice\Keithley'))
 
 %# start creating GUI
 global gui
